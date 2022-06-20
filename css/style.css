@@ -78,6 +78,10 @@
 
 
 /*** Navbar ***/
+.navbar{
+    background-color: #7dc583fd;
+}
+
 .navbar .navbar-nav .nav-link {
     position: relative;
     margin-left: 25px;
@@ -145,7 +149,7 @@
     }
 
     .navbar .navbar-brand img {
-        max-height: 45px;
+        max-height: 70px;
     }
 }
 
@@ -157,11 +161,12 @@
         left: 0;
         border-bottom: 1px solid rgba(256, 256, 256, .2);
         z-index: 999;
+        background-color: #003F4C;
     }
     
     .sticky-top.navbar {
         position: fixed;
-        background: #FFFFFF;
+        background: #8b8b8b91;
     }
 
     .navbar .navbar-nav .nav-link::before {
@@ -218,7 +223,6 @@
 .hero-header {
     margin-bottom: 6rem;
     padding: 12rem 0 9rem 0;
-    background: url(../img/shape-bottom.png) center bottom no-repeat;
 }
 
 .page-header {
