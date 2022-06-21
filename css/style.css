@@ -5,7 +5,6 @@
     --dark: #0E2E50;
 }
 
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -34,6 +33,7 @@
 }
 
 .py-6 {
+    margin-top: 10rem;
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
@@ -115,10 +115,11 @@
     margin-left: 50px;
     max-height: 90px;
     transition: .5s;
+    padding: 5px;
 }
 
 .sticky-top.navbar .navbar-brand img {
-    max-height: 45px;
+    max-height: 65px;
 }
 
 @media (max-width: 991.98px) {
@@ -223,6 +224,7 @@
 .hero-header {
     margin-bottom: 6rem;
     padding: 12rem 0 9rem 0;
+    background: url(../img/shape-bottom.png) center bottom no-repeat;
 }
 
 .page-header {
@@ -439,4 +441,10 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+/* my changes */
+
+.text-steve{
+    color: rgb(196, 196, 196);
 }
