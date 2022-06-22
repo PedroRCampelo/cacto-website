@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00B98E;
+    --primary: #c5de56;
     --light: #F3F6F8;
     --dark: #0E2E50;
 }
@@ -104,7 +104,7 @@
 
 .sticky-top.navbar .navbar-nav .nav-link:hover,
 .sticky-top.navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #c5de56;
 }
 
 .navbar .navbar-brand h1 {
@@ -255,6 +255,7 @@
 }
 
 .service-item:hover {
+    background-color: #f5f5f59f;
     box-shadow: none;
     border-color: var(--primary);
 }
@@ -268,7 +269,7 @@
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: var(--primary);
+    background: #c5de56;
     border-radius: 5px 0;
     transition: .5s;
 }
