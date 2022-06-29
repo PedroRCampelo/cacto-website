@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express()
 const path = require('path');
+require('dotenv').config()
+
 
 
 const PORT = 3001
@@ -16,8 +18,10 @@ app.use('/lib', express.static(__dirname + '/public/lib'))
 app.set('views', './views')
 app.set('view engine', 'ejs')
 
+
+
 app.get('/', (req, res) => {
-    res.render('home')
+    res.render('home', {email: process.env.EMAIL})
 })
 
 app.listen(PORT, () => {

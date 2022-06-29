@@ -5,6 +5,10 @@
     --dark: #0E2E50;
 }
 
+body{ 
+    background-color: white;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -100,12 +104,12 @@
 
 .sticky-top.navbar .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark);
+    color: #FFFFFF;
 }
 
 .sticky-top.navbar .navbar-nav .nav-link:hover,
 .sticky-top.navbar .navbar-nav .nav-link.active {
-    color: #c5de56;
+    color: #FFFFFF;
 }
 
 .navbar .navbar-brand h1 {
@@ -126,7 +130,7 @@
 @media (max-width: 991.98px) {
     .sticky-top.navbar {
         position: relative;
-        background: #FFFFFF;
+        background: #003F4C;
     }
 
     .navbar .navbar-collapse {
@@ -143,7 +147,7 @@
 
     .navbar .navbar-nav .nav-link:hover,
     .navbar .navbar-nav .nav-link.active {
-        color: #003f4c;
+        color: #FFFFFF;
     }
 
     .navbar .navbar-brand h1 {
@@ -219,8 +223,6 @@
         opacity: 1;
     }
 }
-
-
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 6rem;
@@ -291,7 +293,6 @@ footer{
     background-color: #003f4c;
     color: #FFFFFF;
     height: auto;
-    width: 100vw;
     padding-top: 40px;
 }
 
@@ -346,7 +347,6 @@ footer{
 
 .footer-bottom{
     background: #01252c;
-    width: 100vw;
     padding: 20px 0;
     text-align: center;
 }
@@ -362,6 +362,7 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
+
 /* my changes */
 
 .text-steve{
