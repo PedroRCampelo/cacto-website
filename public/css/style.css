@@ -114,6 +114,7 @@ body{
     color: #FFFFFF;
 }
 
+
 .navbar .navbar-brand h1 {
     color: #FFFFFF;
 }
@@ -236,6 +237,11 @@ body{
     margin-bottom: 6rem;
     padding: 12rem 0 6rem 0;
 }
+
+#headerContainer p{
+    color: rgb(185, 185, 185);
+}
+
 
 @media (max-width: 991.98px) {
     .hero-header {
